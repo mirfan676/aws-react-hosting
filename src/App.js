@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          How to deploy react app to aws
+          again started working on react and aws 3-01-2023
         </p>
         <a
           className="App-link"
