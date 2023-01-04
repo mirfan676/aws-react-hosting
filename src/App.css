@@ -32,4 +32,8 @@ a {
 .header-upper .input-group-text {
   background-color: var(--color-febd69);
 }
+.header-upper .header-upper-link img {
+  width: 30px;
+  height: 30px;
+}
 /*Header Part Ends Here*/

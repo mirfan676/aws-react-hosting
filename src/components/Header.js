@@ -29,13 +29,13 @@ const Header = () => {
       <header className='header-upper py-3'>
         <div className='container-xxl'>
           <div className='row align-items-center'>
-            <div className='col-3'>
+            <div className='col-2'>
               <h1>
-                <Link className='text-white'>Saeed&Sons</Link>
+                <Link className='text-white'>Saeed.</Link>
               </h1>
             </div>
             <div className='col-5'>
-              <div class="input-group mb-3">
+              <div class="input-group">
                 <input type="text"
                   className='form-control py-2'
                   placeholder="Search Products Here"
@@ -49,8 +49,35 @@ const Header = () => {
               </div>
 
             </div>
-            <div className='col-4'>
-
+            <div className='col-5'>
+              <div className='header-upper-links d-flex align-items-center justify-content-between'>
+                <div>
+                  <Link>
+                    <img src='images/compare.svg' alt='compare'></img>
+                    <p> Compare <br /> Products</p>
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    <img src='images/wishlist.svg' alt='wishlist'></img>
+                    <p> Favourite <br /> wishlist</p>
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    <img src='images/user.svg' alt='user'></img>
+                    <p> Login <br /> My Account</p>
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    <img src='images/cart.svg' alt='compare'></img>
+                    <div className='d-flex flex-column'>
+                      <span className='badge badge-warning'>0</span>
+                    </div>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
