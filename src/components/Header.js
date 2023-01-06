@@ -52,28 +52,29 @@ const Header = () => {
             <div className='col-5'>
               <div className='header-upper-links d-flex align-items-center justify-content-between'>
                 <div>
-                  <Link>
+                  <Link className='d-flex align-items-center gap-10 text-white'>
                     <img src='images/compare.svg' alt='compare'></img>
-                    <p> Compare <br /> Products</p>
+                    <p className='mb-0'> Compare <br /> Products</p>
                   </Link>
                 </div>
                 <div>
-                  <Link>
+                  <Link className='d-flex align-items-center gap-10 text-white'>
                     <img src='images/wishlist.svg' alt='wishlist'></img>
-                    <p> Favourite <br /> wishlist</p>
+                    <p className='mb-0'> Favourite <br /> wishlist</p>
                   </Link>
                 </div>
                 <div>
-                  <Link>
+                  <Link className='d-flex align-items-center gap-10 text-white'>
                     <img src='images/user.svg' alt='user'></img>
-                    <p> Login <br /> My Account</p>
+                    <p className='mb-0'> Login <br /> My Account</p>
                   </Link>
                 </div>
                 <div>
-                  <Link>
-                    <img src='images/cart.svg' alt='compare'></img>
-                    <div className='d-flex flex-column'>
-                      <span className='badge badge-warning'>0</span>
+                  <Link className='d-flex align-items-center gap-10 text-white'>
+                    <img src='images/cart.svg' alt='cart'></img>
+                    <div className='d-flex flex-column gap-10'>
+                      <span className='badge bg-white text-dark'>0</span>
+                      <p className='mb-0'>$500 </p>
                     </div>
                   </Link>
                 </div>
@@ -82,8 +83,6 @@ const Header = () => {
           </div>
         </div>
       </header>
-
-
     </>
   )
 }

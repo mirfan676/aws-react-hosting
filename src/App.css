@@ -20,6 +20,12 @@ a {
   box-shadow: none;
   border-color: inherit;
 }
+.gap-10 {
+  gap: 10px;
+}
+.gap-15 {
+  gap: 15px;
+}
 
 /*Header Part Starts Here*/
 .header-top-strip {
